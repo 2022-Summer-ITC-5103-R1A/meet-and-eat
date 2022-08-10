@@ -1,0 +1,21 @@
+   <html> 
+<body><script>
+var i=0;
+var image=[];
+var time=1000;
+image [1]='veg1.jpg';
+image [2]='slide2.jpg';
+image [3]='slide3.jpg';
+function changeimg()
+{
+    document.slide.src=image[i];
+    if(i<image.length-1)
+    {
+        i++;
+    }
+    else { i=0;}
+setTimeout(changeimg(),time);
+}
+    </script>
+</body>
+</html>

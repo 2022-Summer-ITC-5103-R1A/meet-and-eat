@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Home Meet and Eat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="LOGO.png" style="float: left; height:100px; width:100px;">
+        <h1>MEET 'N' EAT</h1>
+        <p> Feel the food with your loved ones</p>
+    </div>
+   <div class="navbar">
+<a href="index.html">Home</a>
+    <a href="projectwork.html">Book and Menu</a>
+    <a href="#">Reviews</a>
+    <a href="aboutus.html" class ="right">About us</a>
+   </div>
+<div class="row">
+    <div class="side">
+        <h2>Great Deals on Chinese food</h2>
+        <h5>Manchurian </h5>
+    <div class="fkimg" style="height:300px;">
+    <img src="manchurian.jpg" style="height: 300px; width:100%;"></div>
+    <p> Delicious chinese delicacy like manchurian,Dimsums, sweet and sour soups,Noodles,etc.</p>
+    <h3> Speciality:</h3>
+    <p>we are special in vegan alternatives.</p>
+    <div class="fakeimg fakeimg1" ><img src="vegan1.jpg" width="80%"style="height:200px;"></div><br>
+    <div class="fakeimg fakeimg1"><img src="vegan2.jpg" width="80%"style="height:200px;"> </div><br>
+    <div class="fakeimg fakeimg1"><img src="vegan 3.jpg" width="80%"style="height:200px;"></div><br>
+  </div>
+<div class="main"> 
+
+        <label>Name:</label>
+        <input type="text" id="user" class="form-control" > <span id="nouser"></span>
+    <div>
+        <h3>Rating:</h3>
+        <span id="1" style="font-size:30px; cursor:pointer;"  class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)" ></span>
+        <span id="2"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+        <span id="3"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+        <span id="4"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+        <span id="5"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+   <span id ="nora"></span>
+    </div>
+    <br />
+
+        <h3>Review:</h3>
+        <textarea id="review" style="resize:none; height:100px;"></textarea><span id="norev"></span>
+        <center><button class="btn btn-success" onclick="submitRate()">Submit</button></center>
+            <div id="result"></div>
+  
+
+</div>
+
+</div><div class="footer">
+ MEET 'N' EAT &copy2022<BR>
+BY: HIMANSHI TANEJA (N01531174) AND LOVEPREET KAUR (N01213096)
+</div>
+<script src="Review.js"></script>
+</body>
+</html>
+
+
+

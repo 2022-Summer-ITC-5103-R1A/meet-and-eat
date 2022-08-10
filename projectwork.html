@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <title>Home Meet and Eat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="projectwork.css">
+
+</head>
+<body>
+    <script src="formvalidation.js"></script>
+    <div class="header">
+        <img src="LOGO.png" style="float: left; height:100px; width:100px;">
+        <h1>MEET 'N' EAT</h1>
+        <p> Feel the food with your loved ones</p>
+    </div>
+   <div class="navbar">
+<a href="index.html">Home</a>
+    <a href="#">Book and Menu</a>
+    <a href="Review.html">Reviews</a>
+    <a href="aboutus.html" class="right">About us</a>
+   </div>
+<div class="row">
+    <div class="side">
+        <h2>Great Deals on Chinese food</h2>
+        <h5>Manchurian </h5>
+    <div class="fkimg" style="height:300px;">
+    <img src="manchurian.jpg" style="height: 300px; width:100%;"></div>
+    <p> Delicious chinese delicacy like manchurian,Dimsums, sweet and sour soups,Noodles,etc.</p>
+    <h3> Speciality:</h3>
+    <p>we are special in vegan alternatives.</p>
+    <div class="fakeimg fakeimg1" ><img src="vegan1.jpg" width="80%" style="height:200px;"></div><br>
+    <div class="fakeimg fakeimg1" ><img src="vegan2.jpg" width="80%"style="height:200px;"> </div><br>
+    <div class="fakeimg fakeimg1" ><img src="vegan 3.jpg" width="80%"style="height:200px;"></div><br>
+  </div>
+<div class="main"> 
+<h2>
+    <h1>Welcome...!! We assure your memorable meal.</h1><br>
+    <h2>FILL THE FOLLOWING FORM TO RESERVE A TABLE </h2><br><br><br>
+    
+        <form method="" action="" name="reg_form" onsubmit="return validate()">    
+            <h2>Reservation Form</h2>    
+            <table>  
+                <tr>
+                    <td>
+                        <label>ReservationDate:</label></td>
+                        <td><input type="date"  name="date">
+
+                    </td>  
+                <tr>    
+                    <td><label>First Name: </label></td>    
+                    <td>    
+                        <input type="text" name="fname" placeholder="First Name">    
+                    </td>    
+                </tr>    
+                <tr>    
+                    <td><label>Last Name: </label></td>    
+                    <td>    
+                        <input type="text" name="lname" placeholder="Last Name">    
+                    </td>    
+                </tr>    
+                   
+                <tr>    
+                    <td><label>SpecialRequest: </label></td>    
+                    <td>    
+                        <input type="radio" name="Yes" value="Y">Yes   
+                        <input type="radio" name="No" value="N">No  
+                    </td> 
+                       
+                </tr>
+                <tr>    
+                    <td><label >Add Request: </label></td>    
+                    <td>    
+                        <input type=text name="AddRequest">  
+                         
+                    </td> 
+
+                <tr>    
+                    <td><label>Email Id: </label></td>    
+                    <td>    
+                        <input type="text" name="email" placeholder="example@gmail.com">    
+                    </td>    
+                </tr>    
+                <tr>    
+                    <td><label>Mobile: </label></td>    
+                    <td>    
+                        <input type="number" name="mobile">    
+                    </td>    
+                </tr> 
+                   
+                <tr>    
+                <td><label>Reservationtype: </label></td>    
+                    <td>    
+                        <select name="Reservationtype">    
+                            <option value="dinner">Dinner</option>    
+                            <option value="birthday">Special occasion</option>    
+                            <option value="vip">VIP</option>    
+                            <option value="other">Other</option>    
+                        </select>    
+                    </td>    
+                </tr> 
+                
+                <tr>    
+                    <td>    
+                        <button id="Submit"> Submit </button>    
+                    </td>    
+                </tr>   
+                <script>
+                    var pressedButton = document.getElementsByTagName("button")[0];
+                    pressedButton.addEventListener("click", function (event) {
+                       alert("You have successfully made your reservation");
+                    }) 
+                    </script>                    
+            </table>    
+        </form>                
+
+
+</div>
+    </div>
+ 
+</div><div class="footer">
+ MEET 'N' EAT &copy2022<BR>
+BY: HIMANSHI TANEJA (N01531174) AND LOVEPREET KAUR (N01213096)
+</div>
+
+</body>
+</html>
+
